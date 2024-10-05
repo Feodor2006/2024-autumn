@@ -16,9 +16,9 @@ int main(int argc, char* argv[])
 		if ((s == 1) && (v > m))
 		{
 			m = v;
-			k = i + 1;
-			printf("%d", k);
+			k = i;
 		}
 	}
+	printf("%d", k);
 	return EXIT_SUCCESS;
 }

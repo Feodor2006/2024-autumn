@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 	{
 		scanf_s("%d", &n);
 		scanf_s("%d", &m);
-		printf("%d", 19 * m + (n + 239) * (n + 366) / 2);
+		printf("%d\n", 19 * m + (n + 239) * (n + 366) / 2);
 	}
 	return EXIT_SUCCESS;
 }

@@ -7,16 +7,18 @@ int main(int argc, char* argv[])
 	int max = 0;
 	scanf_s("%d", &a);
 	scanf_s("%d", &b);
-	if (a > b)
 	{
-		max = a;
+		if (a > b)
+		{
+			max = a;
+		}
+		if (a < b)
+		{
+			max = b;
+		}
 	}
-	if (a < b)
-	{
-		max = b;
-	}
-	for (i = max; i <= (a*b); i+=max)
+	for (i = max; i <= (a * b); i += max)
 		if ((i % a == 0) && (i % b == 0))
-	printf("%d", i);
+		printf("%d", i);
 	return EXIT_SUCCESS;
 }
