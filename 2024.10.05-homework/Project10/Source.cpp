@@ -23,6 +23,6 @@ int main(int argc, char* argv[])
 			b = a;
 		}
 	}
-	printf("%d", b);
+		printf("%d", b);
 	return EXIT_SUCCESS;
 }
