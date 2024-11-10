@@ -34,9 +34,9 @@ int main(int argc, char* argv[])
 		if (c[i] != 0)
 		{
 			std::cout << c[i] << ' ';
-			std::cout << std::endl;
 		}
 	}
+	std::cout << std::endl;
 	if (k > d)
 	{
 		std::cout << "NO";
