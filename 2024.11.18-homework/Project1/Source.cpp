@@ -73,7 +73,6 @@ void push_number(int*& arr, int& size, const int value)
 }
 int main()
 {
-	srand(time(NULL));
 	int size = 7;
 	int* arr = new int[size];
 	FillArray(arr, size);
